@@ -1,0 +1,40 @@
+
+body{
+	background-image: url(front.jpg);
+	text-align: center;
+	font-family:"Times New Roman";
+	font-size: 25px;
+	color:#2471A3;
+	height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center,bottom;
+  /*background-repeat: no-repeat;*/
+ /* background-size: cover;*/
+	
+}
+.section {
+width: 60%;
+
+	font-size: 20px;
+    background-color:#707B7C  ;
+    padding: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color:#F0B27A;
+    font-weight: bold;
+        
+
+
+}
+a:hover{
+	color:orange;
+	font-size: 25px;
+	/*border-right-width: 15px;*/
+}
+.bottomright { position: absolute; bottom: 5px; right: 10px; text-align: right; }
+.bottomleft{position: absolute; bottom: -2px; left: 10; text-align: left;
+font-style: cursive;
+font-size: 15px;
+color: #515A5A;
+margin:1px;}

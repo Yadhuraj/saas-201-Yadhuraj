@@ -1,0 +1,67 @@
+body{
+	background-image: url(front.jpg);
+	font-family:"Times New Roman";
+	font-size: large;
+	color: #0C0C0C ;
+	font-weight: bold;
+	background-position: center,bottom;
+
+}
+
+h1{	margin: 2rem;
+	text-align: center;
+	color: black;
+	
+	}
+
+
+.submission{
+		margin: 6rem auto;
+		padding: 40px;
+		border: 4px inset grey;
+		display: inline-block;
+		text-align:left;
+		font-style: italic;
+		
+}
+input[type="text"]{
+	width: 500px;
+	padding: 9px;
+		border: 2px solid black;
+		border-radius: 15px;
+		float:center;
+}
+#Department{
+	width: 512px;
+	padding: 9px;
+	border: 2px solid;
+	float: center;
+	border-radius: 15px;
+}
+a.section1 {
+    background-color:#F2F3F4;
+	font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    float: right;
+    margin-left:15px;
+
+ }
+a.section2 {
+    background-color:#2ECC71;
+	font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    float: right;
+}
+.bottomright { position: absolute; bottom: 5px; right: 10px; text-align: right; }
+ a:hover{
+    	color:blue;
+    	font-size: 22px;
+    }

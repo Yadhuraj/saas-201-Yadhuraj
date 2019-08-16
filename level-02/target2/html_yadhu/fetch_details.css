@@ -1,0 +1,58 @@
+body{
+	background-image: url(front.jpg);
+	font-family:"Times New Roman";
+background-position: center,bottom;
+
+}
+
+h1{	margin: 2rem;
+	text-align: center;
+	color: black;
+	
+	}
+
+.submission{
+		margin: 5rem auto;
+		padding:15px;
+		border: 4px inset grey;
+		display: inline-block;
+		text-align:left;
+		
+}
+
+#Department{
+	margin: 1rem auto;
+	width: 512px;
+	padding: 6px;
+	border: 2px solid;
+	float: center;
+}
+#Section{
+	margin: 1rem auto;
+	width: 512px;
+	padding: 6px;
+	border: 2px solid;
+	float: center;
+}
+a.section1 {
+    background-color:#F2F3F4;
+	font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    float: right;
+    margin-left:5px;
+ }
+a.section2 {
+    background-color:#2ECC71;
+	font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    float: right;
+}
+.bottomright { position: absolute; bottom: 5px; right: 10px; text-align: right; }
