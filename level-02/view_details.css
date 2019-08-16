@@ -9,7 +9,7 @@ body{
 	background-position: center,bottom;
 	
 }
-a.section {
+.section {
 
 	font-size: 20px;
     background-color:#F2F3F4;
@@ -19,6 +19,21 @@ a.section {
     color:#2EC6CC;
     font-weight: bold;
     border: 2px solid black;
+
+    
+}
+.gob{
+
+	font-size: 20px;
+    background-color:#F2F3F4;
+    padding: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    color:#2EC6CC;
+    font-weight: bold;
+    border: 2px solid black;
+display: inline-block;
+   
 }
 a:hover{
 	color:red;

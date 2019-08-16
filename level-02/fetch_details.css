@@ -1,10 +1,7 @@
 body{
 	background-image: url(front.jpg);
 	font-family:"Times New Roman";
-	font-size: large;
-	color: #0C0C0C ;
-	font-weight: bold;
-	background-position: center,bottom;
+background-position: center,bottom;
 
 }
 
@@ -14,29 +11,28 @@ h1{	margin: 2rem;
 	
 	}
 
-
 .submission{
-		margin: 6rem auto;
-		padding: 40px;
+		margin: 5rem auto;
+		padding:15px;
 		border: 4px inset grey;
 		display: inline-block;
 		text-align:left;
-		font-style: italic;
 		
 }
-input[type="text"]{
-	width: 500px;
-	padding: 9px;
-		border: 2px solid black;
-		border-radius: 15px;
-		float:center;
-}
+
 #Department{
+	margin: 1rem auto;
 	width: 512px;
-	padding: 9px;
+	padding: 6px;
 	border: 2px solid;
 	float: center;
-	border-radius: 15px;
+}
+#Section{
+	margin: 1rem auto;
+	width: 512px;
+	padding: 6px;
+	border: 2px solid;
+	float: center;
 }
 a.section1 {
     background-color:#F2F3F4;
@@ -47,8 +43,7 @@ a.section1 {
     color:black;
     font-weight: bold;
     float: right;
-    margin-left:15px;
-
+    margin-right:5px;
  }
 a.section2 {
     background-color:#2ECC71;
@@ -61,7 +56,3 @@ a.section2 {
     float: right;
 }
 .bottomright { position: absolute; bottom: 5px; right: 10px; text-align: right; }
- a:hover{
-    	color:blue;
-    	font-size: 22px;
-    }
