@@ -1,0 +1,28 @@
+<header>
+  <div id='header-left'>
+    <h1><%= @todo["title"] %></h1>
+  </div>
+
+  <div id='header-left'>
+    <%  if  @todo["date"] != ""  %>
+      <h3>Deadline: <%= @todo["date"] %></h3>
+    <% end %>
+  </div>
+ 
+  <div id='header-left'>
+    <h3>Update Todo!</h3>
+  </div>
+</header>
+
+<section class='todo-container'>
+  <div>
+    <form action="/todos/<%= @id %>" method="POST" class="form">
+      <!-- because he cannot put a put method on our form -->
+      <input type='hidden' name='_method' value='put'>
+      <input type="text" name="title" value="<%= @todo["title"] %>"/>
+      <div class='btn-container'>
+        <a class='btn' href='/todos'>Back</a>
+        <input class='btn-submit' type='submit' value='save changes'></div>
+    </form>
+  </div>
+</section>
